@@ -9,8 +9,6 @@
 <grid distance="2.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -157,8 +155,8 @@
 <text x="34" y="16.35" size="0.6096" layer="21" font="vector" ratio="15">SCL</text>
 <text x="8.25" y="3.1" size="0.6096" layer="21" font="vector" ratio="15">PTC_Y</text>
 <text x="5.55" y="3.1" size="0.6096" layer="21" font="vector" ratio="15">PTC_X</text>
-<text x="3.6043" y="19.6272" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">B</text>
-<text x="3.0105" y="18.105" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">W</text>
+<text x="2.6518" y="16.7062" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">B</text>
+<text x="2.058" y="15.184" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">W</text>
 <text x="1.397" y="-3.4925" size="1.778" layer="1">Check VCC connections:</text>
 <text x="0.762" y="-9.525" size="1.778" layer="1">VCC to VDDCORE, VDDANA,VDDIO
 GNDANA to GND</text>
@@ -871,57 +869,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package3d>
 </packages3d>
 </library>
-<library name="SparkFun-Switches" urn="urn:adsk.eagle:library:535">
-<description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
-In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="TACTILE_SWITCH_SMD_4.6X2.8MM" urn="urn:adsk.eagle:footprint:40113/1" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 4.6 x 2.8mm&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.ck-components.com/media/1479/kmr2.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<smd name="3" x="2.05" y="0.8" dx="0.9" dy="1" layer="1"/>
-<smd name="2" x="2.05" y="-0.8" dx="0.9" dy="1" layer="1"/>
-<smd name="1" x="-2.05" y="-0.8" dx="0.9" dy="1" layer="1"/>
-<smd name="4" x="-2.05" y="0.8" dx="0.9" dy="1" layer="1"/>
-<wire x1="-2.1" y1="1.4" x2="-2.1" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="2.1" y1="-1.4" x2="2.1" y2="1.4" width="0.127" layer="51"/>
-<wire x1="-2.1" y1="1.4" x2="2.1" y2="1.4" width="0.127" layer="51"/>
-<wire x1="-2.1" y1="-1.4" x2="2.1" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="1.338" y1="-1.4" x2="-1.338" y2="-1.4" width="0.2032" layer="21"/>
-<wire x1="-1.338" y1="1.4" x2="1.338" y2="1.4" width="0.2032" layer="21"/>
-<wire x1="-2.1" y1="0.13" x2="-2.1" y2="-0.13" width="0.2032" layer="21"/>
-<wire x1="2.1" y1="-0.13" x2="2.1" y2="0.13" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="0.805" width="0.127" layer="21"/>
-<rectangle x1="-2.3" y1="0.5" x2="-2.1" y2="1.1" layer="51"/>
-<rectangle x1="-2.3" y1="-1.1" x2="-2.1" y2="-0.5" layer="51"/>
-<rectangle x1="2.1" y1="-1.1" x2="2.3" y2="-0.5" layer="51" rot="R180"/>
-<rectangle x1="2.1" y1="0.5" x2="2.3" y2="1.1" layer="51" rot="R180"/>
-<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="TACTILE_SWITCH_SMD_4.6X2.8MM" urn="urn:adsk.eagle:package:40176/1" type="box" library_version="1">
-<description>Momentary Switch (Pushbutton) - SPST - SMD, 4.6 x 2.8mm
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Datasheet</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_4.6X2.8MM"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1114,25 +1061,30 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="12pF" x="11.162" y="9.1765" smashed="yes" rot="R90">
-<attribute name="NAME" x="10.4" y="9.1765" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-09137" x="22.592" y="33.3065" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="11.924" y="9.1765" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<element name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="12pF" x="12.94" y="9.24" smashed="yes">
+<attribute name="NAME" x="12.94" y="10.002" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-09137" x="37.07" y="-2.19" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="12.94" y="8.478" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C10" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0603-POLAR" package3d_urn="urn:adsk.eagle:package:37422/1" value="10uF" x="29.9221" y="5.64" smashed="yes" rot="R180">
-<attribute name="NAME" x="29.9221" y="4.878" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-13210" x="9.6021" y="17.07" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="29.9221" y="6.402" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<element name="C10" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0603-POLAR" package3d_urn="urn:adsk.eagle:package:37422/1" value="10uF" x="26.8106" y="10.847" smashed="yes">
+<attribute name="NAME" x="26.8106" y="11.609" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-13210" x="47.1306" y="-0.583" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="26.8106" y="10.085" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="12pF" x="16.665" y="9.183" smashed="yes" rot="R90">
-<attribute name="NAME" x="15.903003125" y="9.182996875" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-09137" x="28.0949875" y="37.122984375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="17.426990625" y="9.182996875" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<element name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="12pF" x="16.03" y="8.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="16.792" y="8.04" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-09137" x="4.6" y="-19.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="15.268" y="8.04" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="C9" library="SparkFun-Capacitors" package="0402" value="1.0uF" x="27.615" y="7.9085" smashed="yes" rot="R270">
-<attribute name="NAME" x="28.377" y="7.9085" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-12417" x="8.565" y="-14.9515" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="26.853" y="7.9085" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="C7" library="SparkFun-Capacitors" package="0603" value="10uF" x="8.73" y="11.25" smashed="yes">
+<attribute name="NAME" x="8.73" y="12.012" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-11015" x="23.97" y="-3.99" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="8.73" y="10.488" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C9" library="SparkFun-Capacitors" package="0402" value="1.0uF" x="25.964" y="12.798" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.964" y="12.036" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-12417" x="3.104" y="31.848" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="25.964" y="13.56" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="DUMMY" package3d_urn="urn:adsk.eagle:package:37104/1" value="FRAME-LETTERNO_PACKAGE" x="0.02" y="0.01" smashed="yes">
 <attribute name="DESIGNER" value="Nobody" x="25.42" y="-19.04" size="1.778" layer="27" display="off"/>
@@ -1147,18 +1099,18 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="16.07425" y="12.76953125" size="1.27" layer="25" rot="R45"/>
 <attribute name="VALUE" x="21.73110625" y="7.112678125" size="1.27" layer="27" rot="R45"/>
 </element>
-<element name="Y1" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:511" package="CRYSTAL-SMD-3.2X1.5MM" package3d_urn="urn:adsk.eagle:package:37548/1" value="32.768kHz" x="13.946" y="10.0705" smashed="yes">
-<attribute name="NAME" x="13.946" y="11.1135" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="XTAL-13062" x="29.186" y="-1.3595" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="13.946" y="9.0275" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="Y1" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:511" package="CRYSTAL-SMD-3.2X1.5MM" package3d_urn="urn:adsk.eagle:package:37548/1" value="32.768kHz" x="12.93" y="7.34" smashed="yes">
+<attribute name="NAME" x="12.93" y="8.383" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="XTAL-13062" x="28.17" y="-4.09" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="12.93" y="6.297" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X14" package3d_urn="urn:adsk.eagle:package:38183/1" value="" x="35.56" y="23.876" smashed="yes" rot="MR0">
-<attribute name="NAME" x="36.83" y="25.273" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" display="off"/>
-<attribute name="VALUE" x="36.83" y="21.844" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0"/>
+<element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X14" package3d_urn="urn:adsk.eagle:package:38183/1" value="" x="35.5355" y="23.33" smashed="yes" rot="MR0">
+<attribute name="NAME" x="36.8055" y="24.727" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" display="off"/>
+<attribute name="VALUE" x="36.8055" y="21.298" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X14" package3d_urn="urn:adsk.eagle:package:38183/1" value="" x="35.56" y="1.524" smashed="yes" rot="MR0">
-<attribute name="NAME" x="36.83" y="2.921" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" display="off"/>
-<attribute name="VALUE" x="36.83" y="-0.508" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0"/>
+<element name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X14" package3d_urn="urn:adsk.eagle:package:38183/1" value="" x="35.8665" y="1.55" smashed="yes" rot="MR0">
+<attribute name="NAME" x="37.1365" y="2.947" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" display="off"/>
+<attribute name="VALUE" x="37.1365" y="-0.482" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k" x="30.55" y="13.15" smashed="yes">
 <attribute name="NAME" x="30.55" y="13.912" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
@@ -1170,43 +1122,28 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="DIO-08575" x="30.55" y="15.15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="27.8" y="14.835" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="2X5-PTH-1.27MM" package3d_urn="urn:adsk.eagle:package:38290/1" value="CORTEX_DEBUG_PTH" x="4.019" y="13.298" smashed="yes" rot="R270">
-<attribute name="NAME" x="5.9494" y="14.8728" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
-<attribute name="VALUE" x="1.5552" y="15.1268" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
+<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="2X5-PTH-1.27MM" package3d_urn="urn:adsk.eagle:package:38290/1" value="CORTEX_DEBUG_PTH" x="4.4" y="10.25" smashed="yes" rot="R270">
+<attribute name="NAME" x="6.3304" y="11.8248" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="VALUE" x="1.9362" y="12.0788" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="USB-B-MICRO-SMD_RED_PASTE" package3d_urn="urn:adsk.eagle:package:38239/1" value="" x="36.403" y="12.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="37.673" y="8.001" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
-<attribute name="PROD_ID" value="CONN-11752" x="36.403" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="37.673" y="17.399" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-left"/>
+<element name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="USB-B-MICRO-SMD_RED_PASTE" package3d_urn="urn:adsk.eagle:package:38239/1" value="" x="37.038" y="12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="38.308" y="8.001" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="PROD_ID" value="CONN-11752" x="37.038" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="38.308" y="17.399" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-left"/>
 </element>
 <element name="JP1" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="10.1" y="6.05" smashed="yes" rot="MR0">
 <attribute name="NAME" x="10.1" y="7.193" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="10.1" y="4.907" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="3.9015" y="6.05" smashed="yes" rot="R180">
-<attribute name="NAME" x="3.9015" y="5.415" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-00821" x="3.9015" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="3.9015" y="6.685" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<element name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="4.6" y="6.05" smashed="yes" rot="R180">
+<attribute name="NAME" x="4.6" y="5.415" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-00821" x="4.6" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="4.6" y="6.685" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="330" x="7.346" y="6.05" smashed="yes">
-<attribute name="NAME" x="7.346" y="6.812" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-00818" x="7.346" y="6.05" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="7.346" y="5.288" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="C3" library="SparkFun-Capacitors" package="0603" value="1.0uF" x="8.509" y="18.6055" smashed="yes" rot="R180">
-<attribute name="NAME" x="8.509" y="17.8435" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-00868" x="8.509" y="18.6055" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="8.509" y="19.3675" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
-</element>
-<element name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="4.7k" x="4.0005" y="18.4785" smashed="yes" rot="R180">
-<attribute name="NAME" x="4.0005" y="17.7165" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="4.0005" y="18.4785" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="4.0005" y="19.2405" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
-</element>
-<element name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" package="TACTILE_SWITCH_SMD_4.6X2.8MM" package3d_urn="urn:adsk.eagle:package:40176/1" value="" x="10.4775" y="13.2715" smashed="yes" rot="R180">
-<attribute name="NAME" x="10.4775" y="11.7475" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="SWCH-13065" x="10.4775" y="13.2715" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="10.4775" y="14.7955" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<element name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="330" x="7.6" y="6.05" smashed="yes">
+<attribute name="NAME" x="7.6" y="6.812" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-00818" x="7.6" y="6.05" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="7.6" y="5.288" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 </elements>
 <signals>
@@ -1216,60 +1153,56 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="C9" pad="2"/>
 <contactref element="C10" pad="-"/>
 <contactref element="U$1" pad="2"/>
+<contactref element="U1" pad="P$28"/>
 <contactref element="J2" pad="1"/>
 <contactref element="D1" pad="C"/>
 <polygon width="0.1524" layer="1">
-<vertex x="0" y="25.588"/>
+<vertex x="0" y="20"/>
 <vertex x="0" y="0"/>
-<vertex x="38.222" y="0"/>
-<vertex x="38.222" y="25.588"/>
+<vertex x="40" y="0"/>
+<vertex x="40" y="20"/>
 </polygon>
 <polygon width="0.1524" layer="16">
-<vertex x="0" y="25.588"/>
+<vertex x="0" y="20"/>
 <vertex x="0" y="0"/>
-<vertex x="38.1585" y="0"/>
-<vertex x="38.1585" y="25.588"/>
+<vertex x="40" y="0"/>
+<vertex x="40" y="20"/>
 </polygon>
 <contactref element="J2" pad="12"/>
 <contactref element="J1" pad="3"/>
 <contactref element="J1" pad="5"/>
 <contactref element="J4" pad="GND"/>
 <contactref element="D2" pad="C"/>
-<contactref element="U1" pad="P$28"/>
+<contactref element="C7" pad="2"/>
 <contactref element="U1" pad="P$10"/>
-<contactref element="C3" pad="2"/>
-<contactref element="S1" pad="3"/>
-<contactref element="S1" pad="4"/>
-<wire x1="33.678" y1="14" x2="35.56" y2="23.876" width="0" layer="19" extent="1-1"/>
-<wire x1="29.673" y1="15.15" x2="33.678" y2="14" width="0" layer="19" extent="1-1"/>
-<wire x1="30.68" y1="9.0099" x2="33.678" y2="14" width="0" layer="19" extent="1-1"/>
-<wire x1="30.7721" y1="5.64" x2="30.68" y2="9.0099" width="0" layer="19" extent="1-1"/>
-<wire x1="27.615" y1="7.3285" x2="30.68" y2="9.0099" width="0" layer="19" extent="1-1"/>
-<wire x1="21.801815625" y1="10.223946875" x2="27.615" y2="7.3285" width="0" layer="19" extent="1-1"/>
+<wire x1="34.313" y1="14" x2="35.5355" y2="23.33" width="0" layer="19" extent="1-1"/>
+<wire x1="29.673" y1="15.15" x2="34.313" y2="14" width="0" layer="19" extent="1-1"/>
+<wire x1="25.384" y1="12.798" x2="29.673" y2="15.15" width="0" layer="19" extent="1-1"/>
+<wire x1="25.9606" y1="10.847" x2="25.384" y2="12.798" width="0" layer="19" extent="1-1"/>
+<wire x1="21.801815625" y1="10.223946875" x2="25.9606" y2="10.847" width="0" layer="19" extent="1-1"/>
 <wire x1="19.5178625" y1="14.629221875" x2="21.801815625" y2="10.223946875" width="0" layer="19" extent="1-1"/>
-<wire x1="16.665" y1="8.333" x2="21.801815625" y2="10.223946875" width="0" layer="19" extent="1-1"/>
-<wire x1="11.162" y1="8.3265" x2="16.665" y2="8.333" width="0" layer="19" extent="1-1"/>
-<wire x1="12.5275" y1="12.4715" x2="11.162" y2="8.3265" width="0" layer="19" extent="1-1"/>
-<wire x1="8.4275" y1="12.4715" x2="12.5275" y2="12.4715" width="0" layer="19" extent="1-1"/>
-<wire x1="3.384" y1="13.298" x2="8.4275" y2="12.4715" width="0" layer="19" extent="1-1"/>
-<wire x1="3.384" y1="14.568" x2="3.384" y2="13.298" width="0" layer="19" extent="1-1"/>
-<wire x1="7.659" y1="18.6055" x2="3.384" y2="14.568" width="0" layer="19" extent="1-1"/>
-<wire x1="7.62" y1="23.876" x2="7.659" y2="18.6055" width="0" layer="19" extent="1-1"/>
-<wire x1="3.0245" y1="6.05" x2="3.384" y2="13.298" width="0" layer="19" extent="1-1"/>
+<wire x1="30.68" y1="9.0099" x2="25.9606" y2="10.847" width="0" layer="19" extent="1-1"/>
+<wire x1="16.03" y1="8.89" x2="21.801815625" y2="10.223946875" width="0" layer="19" extent="1-1"/>
+<wire x1="12.09" y1="9.24" x2="16.03" y2="8.89" width="0" layer="19" extent="1-1"/>
+<wire x1="9.58" y1="11.25" x2="12.09" y2="9.24" width="0" layer="19" extent="1-1"/>
+<wire x1="3.765" y1="11.52" x2="9.58" y2="11.25" width="0" layer="19" extent="1-1"/>
+<wire x1="3.765" y1="10.25" x2="3.765" y2="11.52" width="0" layer="19" extent="1-1"/>
+<wire x1="3.723" y1="6.05" x2="3.765" y2="10.25" width="0" layer="19" extent="1-1"/>
+<wire x1="7.5955" y1="23.33" x2="9.58" y2="11.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="XIN32">
 <contactref element="C1" pad="2"/>
 <contactref element="Y1" pad="P$1"/>
 <contactref element="U1" pad="P$1"/>
-<wire x1="12.696" y1="10.0705" x2="18.124859375" y2="12.34526875" width="0" layer="19" extent="1-1"/>
-<wire x1="11.162" y1="10.0265" x2="12.696" y2="10.0705" width="0" layer="19" extent="1-1"/>
+<wire x1="13.79" y1="9.24" x2="18.124859375" y2="12.34526875" width="0" layer="19" extent="1-1"/>
+<wire x1="11.68" y1="7.34" x2="13.79" y2="9.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="XOUT32">
 <contactref element="C2" pad="2"/>
 <contactref element="Y1" pad="P$2"/>
 <contactref element="U1" pad="P$2"/>
-<wire x1="15.196" y1="10.0705" x2="18.4784125" y2="11.991715625" width="0" layer="19" extent="1-1"/>
-<wire x1="16.665" y1="10.033" x2="15.196" y2="10.0705" width="0" layer="19" extent="1-1"/>
+<wire x1="16.03" y1="7.19" x2="18.4784125" y2="11.991715625" width="0" layer="19" extent="1-1"/>
+<wire x1="14.18" y1="7.34" x2="16.03" y2="7.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDDAN">
 <contactref element="J3" pad="2"/>
@@ -1279,23 +1212,25 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="R1" pad="1"/>
 <contactref element="J1" pad="1"/>
 <contactref element="U1" pad="P$9"/>
+<contactref element="C7" pad="1"/>
+<contactref element="U1" pad="P$27"/>
 <contactref element="U1" pad="P$30"/>
-<contactref element="R3" pad="2"/>
 <wire x1="29.73" y1="11.6101" x2="29.7" y2="13.15" width="0" layer="19" extent="1-1"/>
 <wire x1="21.4482625" y1="9.87039375" x2="29.73" y2="11.6101" width="0" layer="19" extent="1-1"/>
 <wire x1="18.810753125" y1="13.922115625" x2="21.4482625" y2="9.87039375" width="0" layer="19" extent="1-1"/>
-<wire x1="3.1505" y1="18.4785" x2="18.810753125" y2="13.922115625" width="0" layer="19" extent="1-1"/>
-<wire x1="3.384" y1="15.838" x2="3.1505" y2="18.4785" width="0" layer="19" extent="1-1"/>
+<wire x1="19.871415625" y1="14.982778125" x2="18.810753125" y2="13.922115625" width="0" layer="19" extent="1-1"/>
+<wire x1="7.88" y1="11.25" x2="18.810753125" y2="13.922115625" width="0" layer="19" extent="1-1"/>
+<wire x1="3.765" y1="12.79" x2="7.88" y2="11.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL">
 <contactref element="U1" pad="P$17"/>
 <contactref element="J2" pad="2"/>
-<wire x1="23.958490625" y1="13.229153125" x2="33.02" y2="23.876" width="0" layer="19" extent="1-1"/>
+<wire x1="23.958490625" y1="13.229153125" x2="32.9955" y2="23.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDA">
 <contactref element="U1" pad="P$18"/>
 <contactref element="J2" pad="3"/>
-<wire x1="23.6049375" y1="13.58270625" x2="30.48" y2="23.876" width="0" layer="19" extent="1-1"/>
+<wire x1="23.6049375" y1="13.58270625" x2="30.4555" y2="23.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN">
 <contactref element="C9" pad="1"/>
@@ -1304,114 +1239,108 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="U$1" pad="3"/>
 <contactref element="J3" pad="14"/>
 <contactref element="J4" pad="VBUS"/>
-<wire x1="31.63" y1="9.0099" x2="33.678" y2="11.4" width="0" layer="19" extent="1-1"/>
+<wire x1="31.63" y1="9.0099" x2="34.313" y2="11.4" width="0" layer="19" extent="1-1"/>
 <wire x1="29.73" y1="9.0099" x2="31.63" y2="9.0099" width="0" layer="19" extent="1-1"/>
-<wire x1="27.615" y1="8.4885" x2="29.73" y2="9.0099" width="0" layer="19" extent="1-1"/>
-<wire x1="29.0721" y1="5.64" x2="29.73" y2="9.0099" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="1.524" x2="27.615" y2="8.4885" width="0" layer="19" extent="1-1"/>
+<wire x1="27.6606" y1="10.847" x2="29.73" y2="9.0099" width="0" layer="19" extent="1-1"/>
+<wire x1="26.544" y1="12.798" x2="27.6606" y2="10.847" width="0" layer="19" extent="1-1"/>
+<wire x1="2.8465" y1="1.55" x2="26.544" y2="12.798" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PTC_X">
 <contactref element="U1" pad="P$3"/>
 <contactref element="J3" pad="13"/>
-<wire x1="5.08" y1="1.524" x2="18.83196875" y2="11.6381625" width="0" layer="19" extent="1-1"/>
+<wire x1="5.3865" y1="1.55" x2="18.83196875" y2="11.6381625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PTC_Y">
 <contactref element="U1" pad="P$4"/>
 <contactref element="J3" pad="12"/>
-<wire x1="7.62" y1="1.524" x2="19.185521875" y2="11.284609375" width="0" layer="19" extent="1-1"/>
+<wire x1="7.9265" y1="1.55" x2="19.185521875" y2="11.284609375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO0">
 <contactref element="U1" pad="P$5"/>
 <contactref element="J3" pad="11"/>
-<wire x1="10.16" y1="1.524" x2="19.539075" y2="10.93105625" width="0" layer="19" extent="1-1"/>
+<wire x1="10.4665" y1="1.55" x2="19.539075" y2="10.93105625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO1">
 <contactref element="U1" pad="P$6"/>
 <contactref element="J3" pad="10"/>
-<wire x1="12.7" y1="1.524" x2="19.892628125" y2="10.5775" width="0" layer="19" extent="1-1"/>
+<wire x1="13.0065" y1="1.55" x2="19.892628125" y2="10.5775" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO2">
 <contactref element="U1" pad="P$7"/>
 <contactref element="J3" pad="9"/>
-<wire x1="15.24" y1="1.524" x2="20.24618125" y2="10.223946875" width="0" layer="19" extent="1-1"/>
+<wire x1="15.5465" y1="1.55" x2="20.24618125" y2="10.223946875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO3">
 <contactref element="U1" pad="P$8"/>
 <contactref element="J3" pad="8"/>
-<wire x1="17.78" y1="1.524" x2="20.599734375" y2="9.87039375" width="0" layer="19" extent="1-1"/>
+<wire x1="18.0865" y1="1.55" x2="20.599734375" y2="9.87039375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO4">
 <contactref element="U1" pad="P$11"/>
 <contactref element="J3" pad="7"/>
-<wire x1="20.32" y1="1.524" x2="22.15536875" y2="10.5775" width="0" layer="19" extent="1-1"/>
+<wire x1="20.6265" y1="1.55" x2="22.15536875" y2="10.5775" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO5">
 <contactref element="U1" pad="P$12"/>
 <contactref element="J3" pad="6"/>
-<wire x1="22.86" y1="1.524" x2="22.508921875" y2="10.93105625" width="0" layer="19" extent="1-1"/>
+<wire x1="23.1665" y1="1.55" x2="22.508921875" y2="10.93105625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO6">
 <contactref element="U1" pad="P$13"/>
 <contactref element="J3" pad="5"/>
-<wire x1="25.4" y1="1.524" x2="22.862475" y2="11.284609375" width="0" layer="19" extent="1-1"/>
+<wire x1="25.7065" y1="1.55" x2="22.862475" y2="11.284609375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO7">
 <contactref element="U1" pad="P$14"/>
 <contactref element="J3" pad="4"/>
-<wire x1="27.94" y1="1.524" x2="23.216028125" y2="11.6381625" width="0" layer="19" extent="1-1"/>
+<wire x1="28.2465" y1="1.55" x2="23.216028125" y2="11.6381625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO8">
 <contactref element="U1" pad="P$15"/>
 <contactref element="J3" pad="3"/>
-<wire x1="30.48" y1="1.524" x2="23.569584375" y2="11.991715625" width="0" layer="19" extent="1-1"/>
+<wire x1="30.7865" y1="1.55" x2="23.569584375" y2="11.991715625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO10">
 <contactref element="U1" pad="P$19"/>
 <contactref element="J2" pad="4"/>
-<wire x1="23.251384375" y1="13.936259375" x2="27.94" y2="23.876" width="0" layer="19" extent="1-1"/>
+<wire x1="23.251384375" y1="13.936259375" x2="27.9155" y2="23.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO11">
 <contactref element="U1" pad="P$20"/>
 <contactref element="J2" pad="5"/>
-<wire x1="22.89783125" y1="14.2898125" x2="25.4" y2="23.876" width="0" layer="19" extent="1-1"/>
+<wire x1="22.89783125" y1="14.2898125" x2="25.3755" y2="23.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO12">
 <contactref element="U1" pad="P$21"/>
 <contactref element="J2" pad="6"/>
-<wire x1="22.544278125" y1="14.643365625" x2="22.86" y2="23.876" width="0" layer="19" extent="1-1"/>
+<wire x1="22.544278125" y1="14.643365625" x2="22.8355" y2="23.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO13">
 <contactref element="U1" pad="P$22"/>
 <contactref element="J2" pad="7"/>
-<wire x1="22.190725" y1="14.99691875" x2="20.32" y2="23.876" width="0" layer="19" extent="1-1"/>
+<wire x1="22.190725" y1="14.99691875" x2="20.2955" y2="23.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO14">
 <contactref element="U1" pad="P$23"/>
 <contactref element="J2" pad="8"/>
-<wire x1="21.837171875" y1="15.350471875" x2="17.78" y2="23.876" width="0" layer="19" extent="1-1"/>
+<wire x1="21.837171875" y1="15.350471875" x2="17.7555" y2="23.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO15">
 <contactref element="U1" pad="P$24"/>
 <contactref element="J2" pad="9"/>
-<wire x1="21.48361875" y1="15.704025" x2="15.24" y2="23.876" width="0" layer="19" extent="1-1"/>
+<wire x1="15.2155" y1="23.33" x2="21.48361875" y2="15.704025" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO16">
 <contactref element="U1" pad="P$25"/>
 <contactref element="J2" pad="10"/>
-<wire x1="12.7" y1="23.876" x2="20.578521875" y2="15.689884375" width="0" layer="19" extent="1-1"/>
+<wire x1="12.6755" y1="23.33" x2="20.578521875" y2="15.689884375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET">
 <contactref element="U1" pad="P$26"/>
 <contactref element="J2" pad="11"/>
 <contactref element="J1" pad="10"/>
-<contactref element="R3" pad="1"/>
-<contactref element="S1" pad="1"/>
-<contactref element="S1" pad="2"/>
-<wire x1="12.5275" y1="14.0715" x2="20.22496875" y2="15.33633125" width="0" layer="19" extent="1-1"/>
-<wire x1="8.4275" y1="14.0715" x2="12.5275" y2="14.0715" width="0" layer="19" extent="1-1"/>
-<wire x1="4.654" y1="10.758" x2="8.4275" y2="14.0715" width="0" layer="19" extent="1-1"/>
-<wire x1="4.8505" y1="18.4785" x2="8.4275" y2="14.0715" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="23.876" x2="4.8505" y2="18.4785" width="0" layer="19" extent="1-1"/>
+<wire x1="10.1355" y1="23.33" x2="20.22496875" y2="15.33633125" width="0" layer="19" extent="1-1"/>
+<wire x1="5.035" y1="7.71" x2="10.1355" y2="23.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDDOUT">
 <contactref element="U1" pad="P$29"/>
@@ -1422,20 +1351,20 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="U1" pad="P$31"/>
 <contactref element="J2" pad="13"/>
 <contactref element="J1" pad="4"/>
-<wire x1="4.654" y1="14.568" x2="18.4572" y2="13.5685625" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="23.876" x2="4.654" y2="14.568" width="0" layer="19" extent="1-1"/>
+<wire x1="5.035" y1="11.52" x2="18.4572" y2="13.5685625" width="0" layer="19" extent="1-1"/>
+<wire x1="5.0555" y1="23.33" x2="5.035" y2="11.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWDIO">
 <contactref element="U1" pad="P$32"/>
 <contactref element="J2" pad="14"/>
 <contactref element="J1" pad="2"/>
-<wire x1="4.654" y1="15.838" x2="18.103646875" y2="13.215009375" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="23.876" x2="4.654" y2="15.838" width="0" layer="19" extent="1-1"/>
+<wire x1="5.035" y1="12.79" x2="18.103646875" y2="13.215009375" width="0" layer="19" extent="1-1"/>
+<wire x1="2.5155" y1="23.33" x2="5.035" y2="12.79" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO9">
 <contactref element="U1" pad="P$16"/>
 <contactref element="J3" pad="1"/>
-<wire x1="23.9231375" y1="12.34526875" x2="35.56" y2="1.524" width="0" layer="19" extent="1-1"/>
+<wire x1="23.9231375" y1="12.34526875" x2="35.8665" y2="1.55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="R1" pad="2"/>
@@ -1445,17 +1374,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="N$1">
 <contactref element="JP1" pad="2"/>
 <contactref element="R2" pad="2"/>
-<wire x1="8.196" y1="6.05" x2="9.592" y2="6.05" width="0" layer="19" extent="1-16"/>
+<wire x1="8.45" y1="6.05" x2="9.592" y2="6.05" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$2">
 <contactref element="R2" pad="1"/>
 <contactref element="D2" pad="A"/>
-<wire x1="4.7785" y1="6.05" x2="6.496" y2="6.05" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$3">
-<contactref element="U1" pad="P$27"/>
-<contactref element="C3" pad="1"/>
-<wire x1="9.359" y1="18.6055" x2="19.871415625" y2="14.982778125" width="0" layer="19" extent="1-1"/>
+<wire x1="5.477" y1="6.05" x2="6.75" y2="6.05" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
