@@ -1116,7 +1116,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="16.03" y="11.722" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="C6" library="SparkFun-Capacitors" package="0402" value="1.0uF" x="16.02" y="12.96" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.02" y="12.2615" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="16.02" y="12.198" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-12417" x="-3.03" y="32.01" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="16.02" y="13.722" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
