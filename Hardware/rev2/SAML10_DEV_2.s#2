@@ -4202,13 +4202,6 @@ Datasheet</description>
 <label x="81.28" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="VDDAN" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
-<label x="43.18" y="81.28" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="VCC" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="OUT"/>
@@ -4516,11 +4509,6 @@ Datasheet</description>
 <label x="121.92" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="11"/>
-<wire x1="175.26" y1="101.6" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
-<label x="177.8" y="101.6" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="!RESET"/>
 <wire x1="58.42" y1="22.86" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
 <label x="60.96" y="22.86" size="1.27" layer="95" xref="yes"/>
@@ -4556,11 +4544,6 @@ Datasheet</description>
 <label x="121.92" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="13"/>
-<wire x1="175.26" y1="106.68" x2="177.8" y2="106.68" width="0.1524" layer="91"/>
-<label x="177.8" y="106.68" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="SWDCLK/TCK"/>
 <wire x1="58.42" y1="30.48" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
 <label x="60.96" y="30.48" size="1.27" layer="95" xref="yes"/>
@@ -4571,11 +4554,6 @@ Datasheet</description>
 <pinref part="U1" gate="&gt;NAME" pin="PA31/SWDIO"/>
 <wire x1="119.38" y1="76.2" x2="121.92" y2="76.2" width="0.1524" layer="91"/>
 <label x="121.92" y="76.2" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="14"/>
-<wire x1="175.26" y1="109.22" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
-<label x="177.8" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="SWDIO/TMS"/>
@@ -4631,21 +4609,17 @@ Datasheet</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="102,1,198.12,73.66,GND,GNDAN,,,,"/>
-<approved hash="102,1,165.1,104.14,VCC,VDDANA,,,,"/>
-<approved hash="102,1,175.26,104.14,VCC,VDDIO,,,,"/>
-<approved hash="102,1,200.66,91.44,VCC,VDDCORE,,,,"/>
-<approved hash="201,1,198.12,73.66,GND,GND\, GNDAN,,,,"/>
-<approved hash="201,1,200.66,91.44,VCC,VCC\, VDDANA\, VDDIO\, VDDCORE,,,,"/>
-<approved hash="201,1,175.26,104.14,VCC,VCC\, VDDANA\, VDDIO\, VDDCORE,,,,"/>
-<approved hash="201,1,165.1,104.14,VCC,VCC\, VDDANA\, VDDIO\, VDDCORE,,,,"/>
-<approved hash="104,1,119.38,81.28,U1,VDDIO,VDDANA,,,"/>
-<approved hash="202,1,185.42,127,U$1,BP,,,,"/>
-<approved hash="104,1,220.98,137.16,J4,VBUS,VIN,,,"/>
+<approved hash="104,1,83.82,93.98,U1,VDDAN,VCC,,,"/>
+<approved hash="104,1,83.82,91.44,U1,GNDAN,GND,,,"/>
+<approved hash="104,1,119.38,81.28,U1,VDDIO,VCC,,,"/>
+<approved hash="104,1,119.38,88.9,U1,VDDCORE,N$3,,,"/>
+<approved hash="202,1,55.88,154.94,U$1,BP,,,,"/>
+<approved hash="104,1,83.82,165.1,J4,VBUS,VIN,,,"/>
 <approved hash="113,1,101.6,96.4667,U1,,,,,"/>
-<approved hash="113,1,113.623,143.673,J2,,,,,"/>
-<approved hash="113,1,67.9027,144.943,J3,,,,,"/>
-<approved hash="113,1,229.649,133.297,J4,,,,,"/>
+<approved hash="113,1,172.043,92.8726,J2,,,,,"/>
+<approved hash="113,1,37.4227,96.6826,J3,,,,,"/>
+<approved hash="113,1,92.493,161.237,J4,,,,,"/>
+<approved hash="113,1,96.52,19.2634,S1,,,,,"/>
 </errors>
 </schematic>
 </drawing>

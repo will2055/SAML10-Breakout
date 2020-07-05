@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="2.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -20,8 +20,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -150,15 +150,13 @@
 <wire x1="38.1" y1="0" x2="38.1" y2="25.4" width="0" layer="20"/>
 <wire x1="38.1" y1="25.4" x2="0" y2="25.4" width="0" layer="20"/>
 <wire x1="0" y1="25.4" x2="0" y2="0" width="0" layer="20"/>
-<text x="8.55" y="16.2" size="0.6096" layer="21" font="vector" ratio="15">GND</text>
-<text x="10.65" y="16.2" size="0.6096" layer="21" font="vector" ratio="15">RESET</text>
-<text x="31.5" y="16.25" size="0.6096" layer="21" font="vector" ratio="15">SDA</text>
-<text x="34" y="16.35" size="0.6096" layer="21" font="vector" ratio="15">SCL</text>
-<text x="8.25" y="3.1" size="0.6096" layer="21" font="vector" ratio="15">PTC_Y</text>
-<text x="5.55" y="3.1" size="0.6096" layer="21" font="vector" ratio="15">PTC_X</text>
+<text x="6.899" y="21.7245" size="0.6096" layer="21" font="vector" ratio="15">GND</text>
+<text x="29.722" y="21.838" size="0.6096" layer="21" font="vector" ratio="15">SDA</text>
+<text x="32.4125" y="21.811" size="0.6096" layer="21" font="vector" ratio="15">SCL</text>
+<text x="6.599" y="3.0365" size="0.6096" layer="21" font="vector" ratio="15">PTC_Y</text>
+<text x="3.899" y="3.1" size="0.6096" layer="21" font="vector" ratio="15">PTC_X</text>
 <text x="3.6043" y="19.6272" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">B</text>
 <text x="3.0105" y="18.105" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">W</text>
-<text x="17.78" y="16.0655" size="0.6096" layer="22" font="vector" ratio="15" rot="MR0">VOUT</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">

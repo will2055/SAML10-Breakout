@@ -157,6 +157,8 @@
 <text x="3.899" y="3.1" size="0.6096" layer="21" font="vector" ratio="15">PTC_X</text>
 <text x="3.6043" y="19.6272" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">B</text>
 <text x="3.0105" y="18.105" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">W</text>
+<text x="19.558" y="17.0815" size="0.6096" layer="22" font="vector" ratio="15" rot="MR0">VOUT
+ LED</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
@@ -1662,6 +1664,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
